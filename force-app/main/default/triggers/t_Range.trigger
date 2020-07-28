@@ -14,7 +14,6 @@ trigger t_Range on Range__c (before insert) {
         listaRangeUsados.add(lstRange);
     }
 
-    List<Integer> lstNew = new List<Integer>();
     for (Integer i = novo.Minimo__c.intValue(); i <= novo.Maximo__c.intValue(); i++) {
         for (List<Integer> lst : listaRangeUsados) {
             if (lst.contains(i)) {
