@@ -1,0 +1,4 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" controller="c_rangeTest">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <lightning:button class="slds-m-top_small" variant="neutral" type="button" name="cancelar" label="Cancelar" onclick="{!c.close}" />
+</aura:component>
