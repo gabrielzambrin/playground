@@ -43,18 +43,6 @@ public with sharing class c_rangeTest {
         //     }
         // }
 
-        // for (List<Integer> lru : listaRangeUsados) {
-        //     if(lru.contains(novo.min) || lru.contains(novo.max)){
-        //         //erro nao inserir
-        //         System.debug('ERRO');
-        //     }
-        // }
-        // for (List<Integer> lrd : listaRangeDisponiveis) {
-        //     if(!lrd.contains(novo.min) && !lrd.contains(novo.max)){
-        //         //erro nao inserir
-        //         System.debug('ERRO');
-        //     }
-        // }
 
         
 
