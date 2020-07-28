@@ -28,34 +28,6 @@ public with sharing class c_rangeTest {
                 }
             }
         }
-
-        // if(listaRangeUsados.size() > 1){
-        //     for (Integer s = 0; s < listaRangeUsados.size()-1; s++) {
-        //         List<Integer> lstRange = new List<Integer>();
-        //         for(Integer i = listaRangeUsados[s].get(listaRangeUsados[s].size()-1)+1; i < listaRangeUsados[s+1].get(0); i++){      
-        //             System.debug(listaRangeUsados[s+1].get(0));  
-        //             if(i < listaRangeUsados[s+1].get(0)){
-        //                 lstRange.add(i);
-        //             } 
-        //         }
-        //         System.debug(lstRange);
-        //         listaRangeDisponiveis.add(lstRange);
-        //     }
-        // }
-
-        // for (List<Integer> lru : listaRangeUsados) {
-        //     if(lru.contains(novo.min) || lru.contains(novo.max)){
-        //         //erro nao inserir
-        //         System.debug('ERRO');
-        //     }
-        // }
-        // for (List<Integer> lrd : listaRangeDisponiveis) {
-        //     if(!lrd.contains(novo.min) && !lrd.contains(novo.max)){
-        //         //erro nao inserir
-        //         System.debug('ERRO');
-        //     }
-        // }
-
         
 
         for (List<Integer> l1 : listaRangeUsados) {
