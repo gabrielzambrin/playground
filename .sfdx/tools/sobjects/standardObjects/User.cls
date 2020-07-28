@@ -963,6 +963,10 @@ global class User {
     global List<QuickTextUsageShare> UserOrGroup;
     global List<QuoteTemplateRichTextData> CreatedBy;
     global List<QuoteTemplateRichTextData> LastModifiedBy;
+    global List<Range__Share> UserOrGroup;
+    global List<Range__c> CreatedBy;
+    global List<Range__c> LastModifiedBy;
+    global List<Range__c> Owner;
     global List<Recommendation> CreatedBy;
     global List<Recommendation> LastModifiedBy;
     global List<RecordAction> CreatedBy;
