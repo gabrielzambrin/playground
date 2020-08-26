@@ -13,7 +13,7 @@ public with sharing class c_range {
             }
             listaRangeUsados.add(lstRange);
         }
-
+//
 
         for (List<Integer> l1 : listaRangeUsados) {
             System.debug(l1);
