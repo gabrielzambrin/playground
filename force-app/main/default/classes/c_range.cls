@@ -20,10 +20,7 @@ public with sharing class c_range {
         for (List<Integer> l1 : listaRangeUsados) {
             System.debug(l1);
         }
-        // for (List<Integer> l2 : listaRangeDisponiveis) {
-        //     System.debug(l2);
-        // }
-        
+
     }
 
     private static List<MyClass> criarObj(){
