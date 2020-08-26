@@ -15,15 +15,7 @@ public with sharing class c_range {
         }
 
 
-        // for (List<Myclass> pos : listaRangeUsados) {
-        //     List<Integer> lstRange = new List<Integer>();
-        //     for (Integer i = listaRangeUsados[0].[0]; i < listaRangeUsados[listaRangeUsados.size()-1].max; i++){        
-        //         if(!i.contains(pos)){
-        //             lstRange.add(i);
-        //         }
-        //     }
-        //     listaRangeDisponiveis.add(lstRange);
-        // }
+
 
         for (List<Integer> l1 : listaRangeUsados) {
             System.debug(l1);
