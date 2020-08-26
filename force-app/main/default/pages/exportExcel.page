@@ -1,0 +1,5 @@
+<apex:page extensions="exportExcel" standardController="Account">
+<apex:form>
+<apex:commandButton value="Export Excel" action="{!LeaveMC_VF}" />
+</apex:form>
+</apex:page>
