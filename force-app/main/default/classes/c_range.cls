@@ -16,7 +16,7 @@ public with sharing class c_range {
 //
 
         for (List<Integer> l1 : listaRangeUsados) {
-            System.debug(l1);
+            
         }
 
     }
